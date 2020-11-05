@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS events;
+
+CREATE TABLE events (
+  id BIGINT GENERATED ALWAYS AS INDENTITY,
+  title VARCHAR(50) NOT NULL,
+  event_description VARCHAR(256) NOT NULL,
+  start DATETIME,
+  end DATETIME,
+  all_day BOOLEAN
+);

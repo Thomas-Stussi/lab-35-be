@@ -2,7 +2,6 @@ const fs = require('fs');
 const pool = require('../lib/utils/pool');
 const request = require('supertest');
 const app = require('../lib/app');
-const Event = require('../lib/models/Event');
 
 describe('lab-35-fullstack-be routes', () => {
   beforeEach(() => {
